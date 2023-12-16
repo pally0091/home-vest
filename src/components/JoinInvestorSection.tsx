@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinInvestorSection: React.FC = () => {
   return (
-    <div>
+    <div className="mt-20 mb-10">
       <p>Join Investor Section</p>
     </div>
   );

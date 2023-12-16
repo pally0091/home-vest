@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const MapSection: React.FC = () => {
-    return (
-        <div>
-            <p>Map Section</p>
-        </div>
-    );
+  return (
+    <div className="mt-20 mb-10">
+      <p>Map Section</p>
+    </div>
+  );
 };
 
 export default MapSection;

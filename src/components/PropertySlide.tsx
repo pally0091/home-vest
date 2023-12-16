@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const PropertySlide: React.FC = () => {
-    return (
-        <div>
-            <p>Property Slide</p>
-        </div>
-    );
+  return (
+    <div className="mt-20 mb-10">
+      <p>Property Slide</p>
+    </div>
+  );
 };
 
 export default PropertySlide;
