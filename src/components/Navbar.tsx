@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="w-full px-10 py-4 flex justify-between items-center fixed top-0 bg-white">
+    <nav className="w-full px-10 py-4 flex justify-between items-center fixed top-0 bg-white z-20">
       <div>
         <img
           src="/images/LOGO.png"
