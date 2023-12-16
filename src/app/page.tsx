@@ -6,6 +6,7 @@ import InvestSection from "../components/InvestSection";
 import InvestmentCalculator from "../components/InvestmentCalculator";
 import Faq from "../components/Faq";
 import JoinInvestorSection from "../components/JoinInvestorSection";
+import MobileAppView from "@/components/MobileAppView";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ProgressBanner />
       <MapSection />
       <PropertySlide />
+      <MobileAppView />
       <InvestSection />
       <InvestmentCalculator />
       <Faq />

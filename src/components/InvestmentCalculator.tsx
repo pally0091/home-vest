@@ -6,7 +6,7 @@ import Slider from "./ui/Slider";
 const InvestmentCalculator: React.FC = () => {
   const handleSliderChange = (value: number) => {
     console.log("Slider value changed:", value);
-    // Handle the value change as needed
+    // function handleSliderChange
   };
   return (
     <div className="mt-20 mb-10">
