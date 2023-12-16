@@ -6,7 +6,7 @@ import InvestSection from "../components/InvestSection";
 import InvestmentCalculator from "../components/InvestmentCalculator";
 import Faq from "../components/Faq";
 import JoinInvestorSection from "../components/JoinInvestorSection";
-import Footer from "../components/Footer";
+
 export default function Home() {
   return (
     <>
@@ -18,7 +18,6 @@ export default function Home() {
       <InvestmentCalculator />
       <Faq />
       <JoinInvestorSection />
-      <Footer />
     </>
   );
 }
