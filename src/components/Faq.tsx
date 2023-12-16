@@ -38,7 +38,7 @@ const Faq: React.FC = () => {
     setOpenStates(newOpenStates);
   };
   return (
-    <div className="mt-16 mb-10">
+    <div className="mt-20 mb-10">
       <h3 className="text-[36px] font-semibold my-10">FAQ</h3>
       {faqs.map((faq, index) => (
         <div

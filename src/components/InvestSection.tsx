@@ -3,7 +3,7 @@ import React from "react";
 
 const InvestSection: React.FC = () => {
   return (
-    <div className="mt-16 mb-10">
+    <div className="mt-20 mb-10">
       <p className="text-[#EE7214] text-[15px] uppercase">
         Join the future of real estate investing
       </p>
