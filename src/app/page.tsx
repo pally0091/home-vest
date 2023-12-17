@@ -7,6 +7,8 @@ import InvestmentCalculator from "../components/InvestmentCalculator";
 import Faq from "../components/Faq";
 import JoinInvestorSection from "../components/JoinInvestorSection";
 import MobileAppView from "@/components/MobileAppView";
+import TestProject from "@/components/TestProject";
+import InvestmentCalculation from "@/components/InvestmentCalculation";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <InvestmentCalculator />
       <Faq />
       <JoinInvestorSection />
+      <TestProject />
+      <InvestmentCalculation />
     </>
   );
 }

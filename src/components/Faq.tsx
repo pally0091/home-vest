@@ -38,13 +38,10 @@ const Faq: React.FC = () => {
     setOpenStates(newOpenStates);
   };
   return (
-    <div className="mt-20 mb-10 px-2 md:px-10 lg:px-20">
-      <h3 className="text-[36px] font-semibold my-10">FAQ</h3>
+    <div className="mt-20 mb-10 px-2 md:px-10 lg:px-20 max-w-[1500px] mx-auto">
+      <h3 className="text-[36px] font-semibold my-10 text-center">FAQ</h3>
       {faqs.map((faq, index) => (
-        <div
-          key={index}
-          className="border-t border-gray-200"
-        >
+        <div key={index} className="border-t border-gray-200">
           <button
             className="flex justify-between items-center w-full p-4 focus:outline-none"
             onClick={() => toggleAccordion(index)}

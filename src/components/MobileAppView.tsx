@@ -3,8 +3,8 @@ import React from "react";
 
 const MobileAppView: React.FC = () => {
   return (
-    <div className="mt-20 mb-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+    <div className="mt-20 mb-10 max-w-[1500px] mx-auto">
+      <div className="flex ">
         <div className="text-left">
           <p className="text-[15px] text-[#ee7214]">Getting started is easy</p>
           <h3 className="text-[36px] font-semibold my-5">
@@ -37,12 +37,8 @@ const MobileAppView: React.FC = () => {
                     y2="8.00002"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="white" />
-                    <stop
-                      offset="1"
-                      stop-color="white"
-                      stop-opacity="0"
-                    />
+                    <stop stopColor="white" />
+                    <stop offset="1" stopColor="white" stopOpacity="0" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -58,18 +54,10 @@ const MobileAppView: React.FC = () => {
             />
           </div>
           <div className="w-[70px] h-[70px] absolute bottom-28 right-5">
-            <img
-              className="w-full h-full"
-              src="/images/Frame 26.png"
-              alt=""
-            />
+            <img className="w-full h-full" src="/images/Frame 26.png" alt="" />
           </div>
           <div className="w-[70px] h-[70px] absolute left-52 top-5">
-            <img
-              className="w-full h-full"
-              src="/images/Frame 27.png"
-              alt=""
-            />
+            <img className="w-full h-full" src="/images/Frame 27.png" alt="" />
           </div>
           <div className="w-[259px] h-[137px] shadow-md shadow-gray-200 bg-white p-2 rounded-md z-10 absolute top-40 left-2">
             <div className="w-[24px] h-[2px] bg-[#ee7214] mb-2"></div>

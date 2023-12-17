@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row justify-between items-start  pt-20 gap-5">
+    <div className="flex flex-col md:flex-row lg:flex-row justify-between items-start  pt-20 gap-5 max-w-[1500px] mx-auto">
       <div className="w-full md:w-1/2 lg:w-1/2 lg:pe-20">
         <h1 className="text-left text-5xl font-semibold mb-10">
           Real Estate <br /> Real Easy !
@@ -25,10 +25,7 @@ const Banner: React.FC = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 lg:w-1/2">
-        <img
-          src="/images/banner-img.png"
-          alt=""
-        />
+        <img src="/images/banner-img.png" alt="" />
       </div>
     </div>
   );

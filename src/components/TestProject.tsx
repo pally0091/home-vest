@@ -1,15 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 import React from "react";
 import Slider from "./ui/Slider";
 
-const InvestmentCalculator: React.FC = () => {
+const TestProject = () => {
   const handleSliderChange = (value: number) => {
     console.log("Slider value changed:", value);
     // function handleSliderChange
   };
   return (
-    <div className="mt-20 mb-10">
+    <div className="mt-20 mb-10 text-center max-w-[1500px] mx-auto">
       <p className="text-[#EE7214] text-[15px] uppercase">
         WE are changing the way you invest
       </p>
@@ -46,12 +45,10 @@ const InvestmentCalculator: React.FC = () => {
             value to grow 30% over the next 5 years.*
           </p>
         </div>
-        <div>
-          <img src="/images/chart.png" alt="" />
-        </div>
+        <div></div>
       </div>
     </div>
   );
 };
 
-export default InvestmentCalculator;
+export default TestProject;

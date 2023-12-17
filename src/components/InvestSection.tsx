@@ -3,7 +3,7 @@ import React from "react";
 
 const InvestSection: React.FC = () => {
   return (
-    <div className="mt-20 mb-10">
+    <div className="mt-20 mb-10 text-center max-w-[1500px] mx-auto">
       <p className="text-[#EE7214] text-[15px] uppercase">
         Join the future of real estate investing
       </p>
@@ -16,10 +16,7 @@ const InvestSection: React.FC = () => {
         {/* cards  */}
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 6.png"
-              alt=""
-            />
+            <img src="/images/frame 6.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Passive income</p>
           <p className="text-[15px]">
@@ -28,10 +25,7 @@ const InvestSection: React.FC = () => {
         </div>
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 1.png"
-              alt=""
-            />
+            <img src="/images/frame 1.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Stable Cashflow</p>
           <p className="text-[15px]">
@@ -40,10 +34,7 @@ const InvestSection: React.FC = () => {
         </div>
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 2.png"
-              alt=""
-            />
+            <img src="/images/frame 2.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Tax Advantages</p>
           <p className="text-[15px]">
@@ -52,10 +43,7 @@ const InvestSection: React.FC = () => {
         </div>
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 3.png"
-              alt=""
-            />
+            <img src="/images/frame 3.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Capital Appreciation</p>
           <p className="text-[15px]">
@@ -64,10 +52,7 @@ const InvestSection: React.FC = () => {
         </div>
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 4.png"
-              alt=""
-            />
+            <img src="/images/frame 4.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Inflation Protection</p>
           <p className="text-[15px]">
@@ -76,10 +61,7 @@ const InvestSection: React.FC = () => {
         </div>
         <div className="flex justify-center flex-col items-center">
           <div className="w-[82px] h-[82px]">
-            <img
-              src="/images/frame 5.png"
-              alt=""
-            />
+            <img src="/images/frame 5.png" alt="" />
           </div>
           <p className="text-[20px] font-semibold">Diversification</p>
           <p className="text-[15px]">

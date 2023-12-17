@@ -15,12 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="text-center">
+      <body>
         <main>
           <Navbar />
-          <div className="mt-44 lg:mt-20 px-5 md:px-10 lg:px-20">
-            {children}
-          </div>
+          <div className="mt-44 lg:mt-20">{children}</div>
           <Footer />
         </main>
       </body>

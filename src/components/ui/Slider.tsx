@@ -13,7 +13,7 @@ interface SliderProps {
 }
 
 const Slider: React.FC<SliderProps> = ({
-  initialValue = 50,
+  initialValue = 0,
   minValue = 0,
   maxValue = 100,
   onChange,
