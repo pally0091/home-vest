@@ -33,10 +33,10 @@ const steps: steps[] = [
 const ProgressBanner: React.FC = () => {
   return (
     <div className="mt-20 mb-10 max-w-[1500px] mx-auto">
-      <p className="uppercase text-[15px] text-[#ee7214] text-center">
+      <p className="uppercase font-semibold text-[15px] text-[#ee7214] text-center">
         WE are changing the way you invest
       </p>
-      <h3 className="text-[36px] font-semibold text-center">
+      <h3 className="text-[36px] font-bold text-center">
         It’s easy to get started.
       </h3>
       <p className="text-[15px] text-[#3f3f3f] my-5 w-[90%] md:w-[80%] lg:w-[60%] mx-auto">
@@ -44,7 +44,7 @@ const ProgressBanner: React.FC = () => {
         in the American South East. Our platform allows investors to purchase
         SEC-compliant shares in single family homes for as little as $100.
       </p>
-      <div className="flex justify-between align-middle items-center mt-36 relative">
+      <div className="flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between align-middle items-center mt-20 lg:mt-36 relative">
         {/* {steps.map((step, index) => (
           <BannerStep key={index} step={step} />
         ))} */}
@@ -53,7 +53,7 @@ const ProgressBanner: React.FC = () => {
           index < array.length - 1 ? (
             <img
               key={index}
-              className={`absolute ${
+              className={`absolute hidden lg:block ${
                 index % 2 === 0 ? styles.arrowUp : styles.arrowDown
               }`}
               src={

@@ -9,6 +9,7 @@ import JoinInvestorSection from "../components/JoinInvestorSection";
 import MobileAppView from "@/components/MobileAppView";
 import TestProject from "@/components/TestProject";
 import InvestmentCalculation from "@/components/InvestmentCalculation";
+import GreenBanner from "@/components/GreenBanner";
 
 export default function Home() {
   return (
@@ -16,14 +17,15 @@ export default function Home() {
       <Banner />
       <ProgressBanner />
       <MapSection />
+      <GreenBanner />
       <PropertySlide />
       <MobileAppView />
       <InvestSection />
-      <InvestmentCalculator />
+      <InvestmentCalculation />
+      {/* <InvestmentCalculator /> */}
       <Faq />
       <JoinInvestorSection />
-      <TestProject />
-      <InvestmentCalculation />
+      {/* <TestProject /> */}
     </>
   );
 }

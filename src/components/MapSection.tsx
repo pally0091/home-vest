@@ -1,9 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const MapSection: React.FC = () => {
   return (
     <div className="mt-20 mb-10 bg-[#F2F2F2] pt-16 pb-56">
-      <div className="max-w-[1500px] mx-auto flex align-middle items-center justify-center gap-64">
+      <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row align-middle items-center justify-center ga-10 lg:gap-64">
         <div className="text-left max-w-[450px]">
           <p className="text-[15px] text-[#ee7214]">
             WE are changing the way you invest

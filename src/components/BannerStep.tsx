@@ -6,8 +6,8 @@ const BannerStep = ({ step }: any) => {
     <div className="flex flex-col justify-center align-middle items-center">
       <Image
         src={step.image}
-        width={150}
-        height={140}
+        width={1500}
+        height={1400}
         alt="search"
         className="w-[149px] h-[160px] object-fill"
       />
