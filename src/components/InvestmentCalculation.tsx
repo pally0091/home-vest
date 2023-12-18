@@ -107,7 +107,7 @@ const InvestmentCalculation = () => {
   }, [investment, propertyValueGrowth, annualRentalYield]);
 
   return (
-    <div className="investment-calculator max-w-[1500px] mx-auto">
+    <div className="investment-calculator max-w-[1500px] mx-auto mt-20">
       <p className="text-[#EE7214] text-[15px] uppercase text-center">
         WE are changing the way you invest
       </p>
