@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import BannerStep from "./BannerStep";
-import styles from "./ProgressBanner.module.css";
+// import styles from "./ProgressBanner.css";
 
 interface steps {
   image: string;
@@ -49,12 +49,15 @@ const ProgressBanner: React.FC = () => {
           <BannerStep key={index} step={step} />
         ))} */}
         {steps.flatMap((step, index, array) => [
-          <BannerStep key={index} step={step} />,
+          <BannerStep
+            key={index}
+            step={step}
+          />,
           index < array.length - 1 ? (
             <img
               key={index}
               className={`absolute hidden lg:block ${
-                index % 2 === 0 ? styles.arrowUp : styles.arrowDown
+                index % 2 === 0 ? "arrowUp" : "arrowDown"
               }`}
               src={
                 index % 2 === 0
